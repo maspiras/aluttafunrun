@@ -1,17 +1,11 @@
-ALUTTA Christmas Fun Run 2026 — editable website template
+ALUTTA Fun Run - Plain HTML Website
+
+This is a standalone HTML/CSS/JavaScript website. It does not use React, Vite, npm, Node.js, or a build step.
 
 HOW TO USE
-1. Extract this ZIP folder.
-2. Open index.html in Chrome, Edge, Firefox, or another browser.
-3. Click “Edit website” at the bottom-right.
-4. Click any outlined text to change it.
-5. Click “Replace image” to choose a new hero image or registration-section image.
-6. Click “Save HTML” to download an edited HTML copy.
+1. Upload the contents of this folder to your web hosting public web root.
+2. Open index.html to preview locally or visit your domain after upload.
+3. Before deployment, replace https://alutta.org/ in index.html, robots.txt, and sitemap.xml with your real domain if different.
+4. Images are stored in the images/ folder and referenced by relative paths. Keep that folder alongside index.html.
 
-IMPORTANT
-- This is a front-end template; it does not include a server or store registrations.
-- Update the registration button URL in index.html to your real Google Form link.
-- The sample images load from Unsplash and need an internet connection.
-- Images selected with “Replace image” are previewed locally in the current browser session. To keep them in a published site, copy those image files into the assets folder and update the relevant image src in index.html.
-- “Save HTML” exports text and layout changes, but does not embed local replacement images.
-- The uploaded reference screenshot is included in assets/original-reference.png for reference only.
+The editing tools and their related code have been removed. A small optional same-origin link-prefetch script is included.
