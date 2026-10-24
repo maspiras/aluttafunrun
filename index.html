@@ -71,6 +71,50 @@ footer{background:var(--deep);color:white;padding:25px 0;position:relative;overf
 .sponsors-copy p{max-width:560px;margin:0;color:#3e5c52;font-size:15px;line-height:1.65}
 @media(max-width:600px){.sponsors-panel{flex-direction:column;gap:14px;margin:24px auto 0;padding:24px 20px;text-align:center;border-radius:16px}.sponsors-mark{width:54px;height:54px;flex-basis:54px;border-radius:15px;font-size:26px}.sponsors-copy h3{margin-bottom:8px}.sponsors-copy p{font-size:14px;line-height:1.6}}
 
+
+/* Subtle ElyuTech attribution at the very bottom of the footer */
+.elyutech-credit{
+  position:relative;
+  z-index:1;
+  margin:22px auto 0;
+  padding:13px 16px 2px;
+  border-top:1px solid rgba(255,255,255,.14);
+  text-align:center;
+}
+.elyutech-credit a{
+  display:inline-flex;
+  align-items:baseline;
+  justify-content:center;
+  gap:5px;
+  color:rgba(255,255,255,.72);
+  text-decoration:none;
+  font-size:11px;
+  line-height:1.6;
+  transition:color .2s ease, opacity .2s ease;
+}
+.elyutech-credit .credit-brand{
+  color:#fff;
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.35px;
+}
+.elyutech-credit .credit-dot{color:#f0b84b}
+.elyutech-credit a:hover{color:#fff}
+.elyutech-credit a:hover .credit-brand{color:#f6d27d}
+.elyutech-credit a:focus-visible{
+  outline:2px solid #f6d27d;
+  outline-offset:4px;
+  border-radius:3px;
+}
+@media(max-width:600px){
+  .elyutech-credit{margin-top:18px;padding:12px 12px 3px}
+  .elyutech-credit a{font-size:11px}
+  .elyutech-credit .credit-brand{font-size:12px}
+}
+@media(prefers-reduced-motion:reduce){
+  .elyutech-credit a{transition:none}
+}
+
 </style>
 </head>
 <body>
@@ -171,6 +215,13 @@ footer{background:var(--deep);color:white;padding:25px 0;position:relative;overf
     <div><div class="footer-label">Follow Us</div><div class="socials"><a href="#" aria-label="Facebook">●</a><a href="#" aria-label="Instagram">◎</a></div><div style="font-size:12px">Facebook · Instagram</div></div>
     <div class="footer-location">📍 La Union, Philippines<br>(Exact venue to be announced)</div>
     <div class="footer-script">Together<br>We Run ♡</div>
+  </div>
+
+  <div class="elyutech-credit">
+    <a href="https://elyutech.com/" target="_blank" rel="noopener noreferrer" aria-label="Proudly powered by ElyuTech — opens ElyuTech website in a new tab">
+      <span class="credit-label">Proudly powered by</span>
+      <span class="credit-brand">ElyuTech<span class="credit-dot">.</span></span>
+    </a>
   </div>
 </footer>
 <script>
