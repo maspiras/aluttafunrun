@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ALUTTA Christmas Fun Run 2026</title>
+<style>
+:root{--green:#00533f;--deep:#003d32;--mint:#eaf4ef;--red:#df2635;--ink:#12352f;--muted:#49635e;--paper:#fbfcfa}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}
+a{color:inherit;text-decoration:none}.container{width:min(1180px,92%);margin:auto}
+header{background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 2px 14px #003d3210}
+.nav{min-height:66px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:2px;color:var(--green);white-space:nowrap}.brand-mark{font-size:30px}.brand small{display:block;font-size:10px;letter-spacing:0;font-weight:500}.event-name{border-left:1px solid #9cb8ad;padding-left:18px;font-weight:700;letter-spacing:0;color:var(--ink)}
+nav{display:flex;gap:24px;align-items:center;font-size:13px}nav a:hover{color:var(--green);text-decoration:underline;text-underline-offset:6px}
+.hero{min-height:340px;color:#fff;display:flex;align-items:center;position:relative;overflow:hidden;background:linear-gradient(100deg,#003d32 0%,#00624a 45%,#1c8060 100%)}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#003b30 0%,#003b30dd 34%,#003b3020 75%);pointer-events:none}
+.hero-photo{position:absolute;inset:0 0 0 38%;width:62%;height:100%;object-fit:cover;object-position:center}
+.hero-content{position:relative;z-index:1;padding:45px 0;width:58%}.eyebrow{font-weight:800;text-transform:uppercase;letter-spacing:2px;font-size:13px}.hero h1{font-size:clamp(42px,6.4vw,78px);line-height:.92;margin:12px 0 6px;font-weight:900;letter-spacing:-2px;text-transform:uppercase;text-shadow:0 3px 0 #002d25}.hero h1 span{display:block;color:#ff3545}.hero-year{font-size:34px;font-weight:900;margin:2px 0 14px}.hero p{max-width:440px;margin:0 0 22px;color:#e9f7f1}.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--red);color:white;font-weight:800;border:0;border-radius:40px;padding:12px 24px;min-width:180px;cursor:pointer;box-shadow:0 4px 0 #a91d2a}.btn:hover{filter:brightness(1.07);transform:translateY(-1px)}
+.facts{display:grid;grid-template-columns:1fr 1fr 1fr 1.35fr;gap:20px;padding:30px 0;align-items:center}.fact{display:flex;gap:13px;align-items:flex-start;padding:8px 12px;border-right:1px solid #c8d8d2}.fact-icon{font-size:29px;color:var(--green)}.fact strong{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.6px}.fact p{margin:4px 0 0;font-size:13px}.fact:last-of-type{border:0}.fact-intro{border-left:1px solid #9cb8ad;padding-left:24px}.fact-intro h3{color:var(--green);font-size:21px;line-height:1.2;font-style:italic;margin:0 0 7px}.fact-intro p{font-size:13px;margin:0}
+section{padding:34px 0}.about{background:linear-gradient(110deg,#f2f7f4,#fff)}.section-title{display:flex;gap:15px;align-items:flex-start;margin-bottom:10px}.section-icon{font-size:34px;color:var(--green);line-height:1}.section-title h2{font-size:28px;line-height:1.15;margin:0;color:var(--deep);letter-spacing:-.7px}.section-title .eyebrow{color:var(--green);font-size:12px;letter-spacing:1.2px;margin-bottom:3px}.about-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:40px;align-items:center}.about-copy p{margin:10px 0;font-size:14px}.values{display:grid;grid-template-columns:repeat(4,1fr);text-align:center}.value{padding:12px;border-right:1px solid #c3d6ce;font-size:13px}.value:last-child{border:0}.value span{display:block;font-size:30px;color:var(--green);margin-bottom:4px}.value:nth-child(3) span{color:var(--red)}
+.races{text-align:center}.races .section-title{justify-content:center}.section-sub{margin:4px auto 24px;font-size:14px}.race-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}.race-card{position:relative;border:1px solid #8dc3b3;border-radius:10px;padding:32px 20px 22px;background:#fff;transition:.2s}.race-card:hover{transform:translateY(-4px);box-shadow:0 12px 25px #003d3210}.race-card.red{border-color:#ef8c94}.race-icon{position:absolute;top:-17px;left:calc(50% - 24px);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:white;font-size:24px;box-shadow:0 0 0 5px #fff}.race-card.red .race-icon{background:var(--red)}.race-card h3{font-size:32px;line-height:1;margin:15px 0 4px;color:var(--green)}.race-card.red h3{color:#cf2432}.race-card h4{margin:0 0 8px;color:var(--green);font-size:14px}.race-card.red h4{color:#cf2432}.race-card p{font-size:13px;max-width:230px;margin:auto}
+.signup{padding:0;color:#fff;background:linear-gradient(110deg,#004a3a,#00614a 65%,#003b30);overflow:hidden}.signup-grid{display:grid;grid-template-columns:1fr 1.1fr;min-height:240px}.signup-image{position:relative;min-height:240px;background:#12533f}.signup-image img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}.signup-image:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#003d3220,#003d32aa)}.signup-image .script{position:absolute;z-index:1;right:10%;top:34%;font-family:Georgia,serif;font-size:38px;font-style:italic;font-weight:bold;transform:rotate(-8deg);text-shadow:0 2px 8px #003d32}
+.signup-content{display:grid;grid-template-columns:1fr 120px;gap:24px;align-items:center;padding:30px 5%}.signup-content h2{font-size:28px;line-height:1.2;margin:4px 0}.signup-content p{font-size:13px;margin:4px 0 16px}.signup-content .btn{width:100%;max-width:300px}.qr-placeholder{position:relative;left:-0.8in;border-left:1px solid #a1c8bb;padding-left:24px;text-align:center;font-size:12px;display:flex;flex-direction:column;align-items:center}.qr-placeholder>div[contenteditable="true"]{width:1.5in;max-width:1.5in;text-align:center;margin:0 auto;line-height:1.25}.qr-placeholder .qr{width:1.5in;height:1.5in;min-width:1.5in;min-height:1.5in;aspect-ratio:1/1;box-sizing:border-box;background:#fff;margin:0 auto 8px;padding:0;display:flex;align-items:center;justify-content:center;overflow:hidden;border:0;outline:1px solid #ddd}.qr-placeholder .qr img{display:block;width:1.49in;height:1.49in;min-width:1.49in;min-height:1.49in;max-width:none;max-height:none;object-fit:fill;object-position:center;flex:none}
+.highlights{display:flex;align-items:center;gap:30px}.highlights .section-title{min-width:240px;margin:0}.highlight-items{display:grid;grid-template-columns:repeat(6,1fr);flex:1;text-align:center}.highlight{border-right:1px solid #c5d8d0;padding:0 10px;font-size:12px}.highlight:last-child{border:0}.highlight span{display:block;color:var(--green);font-size:28px;margin-bottom:5px}
+footer{background:var(--deep);color:white;padding:25px 0;position:relative;overflow:hidden}footer:after{content:"";position:absolute;bottom:-30px;left:0;right:0;height:60px;border-top:2px solid #2b9778;border-radius:50% 50% 0 0;opacity:.8}.footer-grid{display:grid;grid-template-columns:1fr .6fr 1fr .8fr;align-items:center;gap:20px;position:relative;z-index:1}.footer-brand{font-size:22px;letter-spacing:2px;font-weight:800}.footer-brand small{display:block;font-size:10px;letter-spacing:0;font-weight:400}.footer-label{font-size:12px;font-weight:700}.socials{font-size:23px;letter-spacing:8px}.footer-location{font-size:12px;border-left:1px solid #8ab5a7;padding-left:20px}.footer-script{text-align:right;font-family:Georgia,serif;font-style:italic;font-size:23px;line-height:1.1}
+.edit-tools{position:fixed;right:16px;bottom:16px;z-index:20;display:flex;gap:8px;align-items:center;background:#fff;padding:8px;border-radius:14px;box-shadow:0 5px 25px #002d2530}.edit-tools button{border:0;border-radius:9px;padding:10px 13px;background:var(--green);color:white;font-weight:700;cursor:pointer}.edit-tools button.secondary{background:#e9f2ee;color:var(--deep)}.edit-note{font-size:11px;color:#516b64;max-width:140px}
+body.editing [contenteditable="true"]{outline:2px dashed #e8a12a;outline-offset:3px;cursor:text}
+@media(max-width:900px){.nav{flex-wrap:wrap;padding:12px 0}nav{width:100%;justify-content:space-between;gap:10px;flex-wrap:wrap}.hero-content{width:72%}.hero-photo{left:30%;width:70%}.facts{grid-template-columns:1fr 1fr}.fact:nth-child(2){border:0}.fact-intro{border-left:0;padding-left:12px}.about-grid{grid-template-columns:1fr}.highlights{display:block}.highlights .section-title{margin-bottom:20px}.highlight-items{grid-template-columns:repeat(3,1fr);gap:15px}.highlight{padding:10px;border-right:0}.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.event-name{font-size:13px}.brand{font-size:14px}.brand-mark{font-size:24px}.hero{min-height:420px;align-items:flex-end}.hero-photo{inset:0;width:100%;height:100%;opacity:.45}.hero:after{background:linear-gradient(0deg,#003b30 0%,#003b30b8 55%,#003b3040 100%)}.hero-content{width:100%;padding:38px 0}.hero h1{font-size:47px}.facts{grid-template-columns:1fr;padding:18px 0}.fact{border-right:0;border-bottom:1px solid #d5e2dc;padding:12px}.fact-intro{padding:15px 12px}.race-grid{grid-template-columns:1fr;gap:32px}.race-card{margin:0 10px}.signup-grid{grid-template-columns:1fr}.signup-image{min-height:170px}.signup-content{padding:25px 5%;grid-template-columns:1fr;gap:14px}.qr-placeholder{position:relative;left:0;padding:16px 0 0;border-left:0;border-top:1px solid #a1c8bb;display:flex;flex-direction:column;align-items:center}.qr-placeholder .qr{width:1.5in;height:1.5in;min-width:1.5in;min-height:1.5in;aspect-ratio:1/1;padding:0;margin-left:auto;margin-right:auto}.qr-placeholder .qr img{width:1.49in;height:1.49in;min-width:1.49in;min-height:1.49in;max-width:none;max-height:none;object-fit:fill;flex:none}.highlight-items{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr;gap:18px}.footer-location{border-left:0;padding-left:0}.footer-script{text-align:left}.edit-tools{left:10px;right:10px;justify-content:center}.edit-note{display:none}section{padding:28px 0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#home"><span class="brand-mark"><img src="images/alutta-logo-header-trans.png"></span><span>ALUTTA<small>Stronger People. A Brighter Tomorrow.</small></span></a>
+    <div class="event-name" contenteditable="true">Christmas Fun Run 2026</div>
+    <nav>
+      <a href="#home">Home</a><a href="#about">About</a><a href="#details">Event Details</a><a href="#races">Race Categories</a><a href="#register">Registration</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="hero" id="home">
+  <img class="hero-photo replaceable" src="images/alutta-logo-headerbig-trans.png" alt="Runners on a sunny road">
+  <div class="container"><div class="hero-content">
+    <div class="eyebrow" contenteditable="true">ALUTTA presents</div>
+    <h1 contenteditable="true">Christmas <span>Fun Run</span></h1>
+    <div class="hero-year" contenteditable="true">2026</div>
+    <p contenteditable="true">Run together, celebrate wellness, and make a difference in our community.</p>
+    <a class="btn" href="#register">REGISTER NOW ↗</a>
+  </div></div>
+</section>
+<div class="container facts" id="details">
+  <div class="fact"><span class="fact-icon">▦</span><div><strong>Event Date</strong><p contenteditable="true">December 5, 2026<br>(Saturday)</p></div></div>
+  <div class="fact"><span class="fact-icon">📍</span><div><strong>Location</strong><p contenteditable="true">La Union, Philippines<br><small>(Exact venue to be announced)</small></p></div></div>
+  <div class="fact"><span class="fact-icon">♟</span><div><strong>Organizer</strong><p contenteditable="true">Association of La Union Travel and Tour Agencies - ALUTTA</p></div></div>
+  <div class="fact-intro"><h3 contenteditable="true">Run, Connect,<br>Make a Difference</h3><p contenteditable="true">Join us for a joyful and meaningful Christmas celebration as we run together for a healthier, stronger, and more united community.</p></div>
+</div>
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-copy">
+      <div class="section-title"><span class="section-icon">♠</span><div><div class="eyebrow">About the Event</div><h2 contenteditable="true">More Than Just a Run</h2></div></div>
+      <p contenteditable="true">The ALUTTA Christmas Fun Run 2026 is a corporate event designed to bring our team, partners, and communities together in the spirit of health, unity, and giving.</p>
+      <p contenteditable="true">Let’s close the year with positivity, energy, and purpose!</p>
+    </div>
+    <div class="values">
+      <div class="value"><span>♟</span><div contenteditable="true">Build<br>Team Spirit</div></div>
+      <div class="value"><span>♡</span><div contenteditable="true">Promote<br>Wellness</div></div>
+      <div class="value"><span>♔</span><div contenteditable="true">Spread<br>Christmas Cheer</div></div>
+      <div class="value"><span>❧</span><div contenteditable="true">Support<br>Community</div></div>
+    </div>
+  </div>
+</section>
+<section class="races" id="races">
+  <div class="container">
+    <div class="section-title"><span class="section-icon">🏃</span><div><div class="eyebrow">Race Categories</div><h2 contenteditable="true">Choose Your Distance</h2></div></div>
+    <p class="section-sub" contenteditable="true">Whether you’re a casual jogger or a seasoned runner, there’s a category for you!</p>
+    <div class="race-grid">
+      <article class="race-card"><div class="race-icon">🏃</div><h3 contenteditable="true">3 KM</h3><h4 contenteditable="true">Fun Run</h4><p contenteditable="true">Perfect for beginners and those who just want to enjoy the holiday vibes.</p></article>
+      <article class="race-card red"><div class="race-icon">🏃</div><h3 contenteditable="true">5 KM</h3><h4 contenteditable="true">Challenge Run</h4><p contenteditable="true">For those who want a little more thrill and motivation.</p></article>
+      <article class="race-card"><div class="race-icon">🏃</div><h3 contenteditable="true">10 KM</h3><h4 contenteditable="true">Race Run</h4><p contenteditable="true">For the dedicated runners and fitness enthusiasts.</p></article>
+    </div>
+  </div>
+</section>
+<section class="signup" id="register">
+  <div class="signup-grid">
+    <div class="signup-image"><img class="replaceable" src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1200&q=85" alt="Running shoes on a road"><div class="script" contenteditable="true">Let’s<br>Run!</div></div>
+    <div class="signup-content">
+      <div><div class="eyebrow">♟ Registration</div><h2 contenteditable="true">Sign Up Now</h2><p contenteditable="true">Secure your slot and be part of this meaningful event.</p><a class="btn" id="registerLink" href="https://docs.google.com/forms/d/e/1FAIpQLScYD1WWOmpFLmkXFGsP58QoLn2UGk-q-OopKfUFe0fNs_5bMQ/viewform" target="_blank" rel="noopener">REGISTER HERE ↗</a><p contenteditable="true" style="text-align:center;max-width:300px">(Google Forms)</p></div>
+      <div class="qr-placeholder"><div class="qr"><img src="images/QRcode-regis1.png"></div><div contenteditable="true">Scan QR code<br>to register</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container highlights">
+    <div class="section-title"><span class="section-icon">🎁</span><div><div class="eyebrow">What to Expect</div><h2 contenteditable="true">Event Highlights</h2></div></div>
+    <div class="highlight-items">
+      <div class="highlight"><span>♧</span><div contenteditable="true">Event Shirt</div></div>
+      <div class="highlight"><span>♕</span><div contenteditable="true">Finisher Medal</div></div>
+      <div class="highlight"><span>🎁</span><div contenteditable="true">Raffle Prizes</div></div>
+      <div class="highlight"><span>▣</span><div contenteditable="true">Photo Booth</div></div>
+      <div class="highlight"><span>♫</span><div contenteditable="true">Music &amp; Entertainment</div></div>
+      <div class="highlight"><span>🥤</span><div contenteditable="true">Food &amp; Refreshments</div></div>
+    </div>
+  </div>
+</section>
+<section class="races" id="Partners">
+  <div class="container">
+    <div class="section-title"><span class="section-icon">🏃</span><div><div class="eyebrow">Our Partners</div><h2 contenteditable="true">Made Possible Together</h2></div></div>
+    <p class="section-sub" contenteditable="true">We welcome organizations and businesses interested in supporting the ALUTTA Christmas Fun Run 2026.</p>
+    <div class="race-grid">
+      <article class="race-card"><div class="race-icon">🏃</div><h3 contenteditable="true">Gold Sponsor</h3><h4 contenteditable="true">Fun Run</h4><p contenteditable="true">Perfect for beginners and those who just want to enjoy the holiday vibes.</p></article>
+      <article class="race-card red"><div class="race-icon">🏃</div><h3 contenteditable="true">Community Partner</h3><h4 contenteditable="true">Challenge Run</h4><p contenteditable="true">For those who want a little more thrill and motivation.</p></article>
+      <article class="race-card"><div class="race-icon">🏃</div><h3 contenteditable="true">Silver Sponsor</h3><h4 contenteditable="true">Race Run</h4><p contenteditable="true">For the dedicated runners and fitness enthusiasts.</p></article>
+    </div>
+  </div>
+</section>
+</main>
+<footer id="contact">
+  <div class="container footer-grid">
+    <div class="footer-brand"><img src ="images/alutta-logo-small-trans.png"> ALUTTA<small contenteditable="true">Stronger People. A Brighter Tomorrow.</small></div>
+    <div><div class="footer-label">Follow Us</div><div class="socials"><a href="#" aria-label="Facebook">●</a><a href="#" aria-label="Instagram">◎</a></div><div contenteditable="true" style="font-size:12px">Facebook · Instagram</div></div>
+    <div class="footer-location" contenteditable="true">📍 La Union, Philippines<br>(Exact venue to be announced)</div>
+    <div class="footer-script" contenteditable="true">Together<br>We Run ♡</div>
+  </div>
+</footer>
+<div class="edit-tools">
+  <span class="edit-note" id="editNote">Click Edit to change text and images.</span>
+  <button id="editBtn" type="button">✎ Edit website</button>
+  <button id="imageBtn" class="secondary" type="button">Replace image</button>
+  <button id="saveBtn" class="secondary" type="button">Save HTML</button>
+  <input id="imageInput" type="file" accept="image/*" hidden>
+</div>
+<script>
+const editBtn=document.getElementById('editBtn');
+let editing=false;
+editBtn.addEventListener('click',()=>{
+  editing=!editing; document.body.classList.toggle('editing',editing);
+  document.querySelectorAll('[contenteditable]').forEach(el=>el.setAttribute('contenteditable',editing?'true':'false'));
+  editBtn.textContent=editing?'✓ Finish editing':'✎ Edit website';
+  document.getElementById('editNote').textContent=editing?'Click any outlined text to change it.':'Click Edit to change text and images.';
+});
+let targetImage=null;
+document.getElementById('imageBtn').addEventListener('click',()=>{
+  targetImage=prompt('Which image do you want to replace? Type hero or signup','hero');
+  if(!targetImage)return;
+  targetImage=targetImage.toLowerCase().includes('sign')?'signup':'hero';
+  document.getElementById('imageInput').click();
+});
+document.getElementById('imageInput').addEventListener('change',e=>{
+  const file=e.target.files[0]; if(!file)return;
+  const url=URL.createObjectURL(file);
+  const img=document.querySelector(targetImage==='signup'?'.signup-image img':'.hero-photo');
+  img.src=url; img.dataset.localFile=file.name;
+});
+document.getElementById('saveBtn').addEventListener('click',()=>{
+  const clone=document.documentElement.cloneNode(true);
+  clone.querySelectorAll('[contenteditable]').forEach(el=>el.setAttribute('contenteditable','false'));
+  clone.querySelector('body').classList.remove('editing');
+  clone.querySelector('.edit-tools').style.display='none';
+  const blob=new Blob(['<!DOCTYPE html>\\n'+clone.outerHTML],{type:'text/html;charset=utf-8'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='christmas-fun-run-2026.html';a.click();URL.revokeObjectURL(a.href);
+  alert('HTML downloaded. Note: images you selected from your computer are not embedded in this file; keep the image files alongside the website or replace them again after reopening.');
+});
+</script>
+</body>
+</html>
